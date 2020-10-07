@@ -1,0 +1,910 @@
+html, body {
+    margin:0 ;
+    padding: 0;
+    min-width: 100%;
+    height: 100%;
+}
+header {
+    width: 100vw;
+    height: 90px;
+    background-color: #D0C297;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+}
+
+.header_cont {
+    background-color:#D0C297;
+    margin:0;
+    width: 960px;
+    height: 90px;
+    text-align: center;
+    padding: 0;
+}
+
+h5, h1, h6 {
+    padding: 0;
+    margin: 0;
+}
+
+#marca {
+    background-image: url("img/Marca_principal2.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 80px;
+    float: left;
+    box-sizing: border-box;
+    padding: 5px;
+    margin: 10px;
+}
+
+#botonera {
+    width:auto;
+    height:100%;
+    float: right;
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+    justify-content: center;
+    align-items: center;
+}
+
+.boton {
+    padding: 8px;
+    border: 2px solid white;
+    margin-right: 10px;
+    color: white;
+    margin-top: 15px;
+
+}
+
+.boton:link {
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 0.8rem;
+}
+
+.boton:hover {
+    background-color: #D7CCB8;
+}
+
+#productos {
+    background-color: #504540;
+}
+/*--------------------------------------------------------*/
+
+#footer_container {
+    box-sizing: border-box;
+    margin: auto;
+    left: 0;
+    bottom: 0;
+    background-color: #999897;
+    min-width: 100vh;
+    height: 15vh;
+}
+
+#redes_footer {
+    width: 450px;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    box-sizing: border-box;
+    padding-top: 10px;
+}
+
+.redes {
+    width: 30px;
+    height: 30px;
+    padding: 15px;
+    margin-top: 10px;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+#facebook {
+    background-image: url("img/002-facebook.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 10px;
+}
+
+#instagram {
+    background-image: url("img/001-instagram.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#footer_text {
+    font-family: 'Poppins',sans-serif;
+    color: white;
+    font-weight: bolder;
+    letter-spacing: 2px;
+}
+
+#footer_text h1 {
+    font-size: 0.9rem;
+}
+
+#footer_text h6 {
+    font-size: 0.6rem;
+}
+
+#redes_icons {
+    box-sizing: border-box;
+    width: 100px;
+    height: 100%;
+}
+
+/*--------------------------------------------------------*/
+
+section {
+    min-width: 960px;
+    min-height: 95vh;
+    margin: auto;
+}
+
+#inner_banner {
+    min-width: 100%;
+    min-height: 60vh;
+    background-image: url("img/rolling-tobacco-flavour-eliquid.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#inner_banner::after {
+    content: "";
+    background-color: #D0C297;
+    opacity: 0.8;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+#banner_text {
+    position: absolute;
+    top: 140px;
+    width: 50%;
+    height: auto;
+    font-family: 'Poppins';
+    text-align: center;
+    color: white;
+}
+
+#banner_text h1 {
+    font-size: 2rem;
+    letter-spacing: 1px;
+}
+
+#banner_text p {
+    font-size: 1.1rem;
+    margin: 0;
+    padding: 0;
+}
+
+
+/*--------------------------------------------------------*/
+
+#container_productos {
+    width: 960px;
+    margin: auto;
+    min-height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.video_container {
+    height:100%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.btn_video {
+    font-size: 30px;
+    color: #504540;
+    margin-top: 5px;
+    background-color: transparent;
+    border: none;
+}
+
+#producto_card1 {
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    box-shadow: 1px 2px 4px 1px rgba(0, 0, 0, 0.2);
+    padding: 15px;
+
+}
+
+.texto_productos {
+    box-sizing: border-box;
+    width: 90%;
+    height: auto;
+    text-align: justify;
+    word-break: break-all;
+    padding: 10px;
+    margin-left: 10px;
+    font-family: 'Poppins';
+}
+
+.texto_productos h3 {
+    font-size: 1.5rem;
+    margin-top: 0;
+    padding: 0;
+}
+
+.info {
+    width: 100px;
+    height: 40px;
+    text-transform: uppercase;
+    font-family: 'Poppins';
+    font-weight: bolder;
+    color:  #D0C297;
+    border: 2px solid  #D0C297;
+    background-color: transparent;
+    letter-spacing: 2px;
+}
+
+#info:hover {
+    background-color: #999897;
+}
+
+.texto_productos p {
+    font-size: 0.9rem;
+}
+
+/*-------------------------------------------------*/
+@media all and (min-width: 600px) and (max-width: 799px) {
+
+    section {
+        min-width: 100%;
+        height: auto;
+        margin: auto;
+    }
+
+    #inner_banner {
+        min-width: 100%;
+        min-height: 55vh;
+
+    }
+
+    #banner_text {
+        position: absolute;
+        top: 150px;
+        width: 80%;
+        height: auto;
+        font-family: 'Poppins';
+        text-align: center;
+        color: white;
+    }
+
+    #banner_text h1 {
+        font-size: 2rem;
+        letter-spacing: 1px;
+    }
+
+    #banner_text p {
+        font-size: 1.1rem;
+        margin: 0;
+        padding: 0;
+    }
+
+    /*------------------------------------*/
+
+    iframe {
+        width: 90%;
+        height: 60vh;
+    }
+
+
+    #container_productos {
+        width: 100%;
+        margin: auto;
+        min-height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #producto_card1 {
+        width: 90%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        box-sizing: border-box;
+        box-shadow: 1px 2px 4px 1px rgba(0, 0, 0, 0.2);
+        padding: 15px;
+
+    }
+
+    .texto_productos {
+        box-sizing: border-box;
+        width: 95%;
+        height: auto;
+        text-align: justify;
+        word-break: break-all;
+        padding: 10px;
+        margin-left: 10px;
+        font-family: 'Poppins';
+    }
+
+    .texto_productos h3 {
+        font-size: 1.5rem;
+        margin-top: 0;
+        padding: 0;
+    }
+
+    .info {
+        width: 100px;
+        height: 40px;
+        text-transform: uppercase;
+        font-family: 'Poppins';
+        font-weight: bolder;
+        color:  #D0C297;
+        border: 2px solid  #D0C297;
+        background-color: transparent;
+        letter-spacing: 2px;
+    }
+
+    #info:hover {
+        background-color: #999897;
+    }
+
+    .texto_productos p {
+        font-size: 0.9rem;
+    }
+
+    /*---------------------------------*/
+
+    #footer_container {
+        min-height: 15vh;
+        box-sizing: border-box;
+        margin: auto;
+        left: 0;
+        bottom: 0;
+        min-width: 100%;
+    }
+
+    #redes_footer {
+        width: 100%;
+        text-align: center;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        box-sizing: border-box;
+        padding-top: 10px;
+    }
+
+    #footer_text {
+        font-family: 'Poppins',sans-serif;
+        color: white;
+        font-weight: bolder;
+        letter-spacing: 2px;
+    }
+
+    #footer_text h1 {
+        font-size: 1rem;
+    }
+
+    #footer_text h6 {
+        font-size: 0.8rem;
+    }
+
+
+
+}
+
+@media all and (max-width: 599px) {
+
+    #inner_banner {
+        width: 100%;
+        min-height: 90vh;
+        background-image: url("img/rolling-tobacco-flavour-eliquid.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: relative;
+        z-index: -1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #inner_banner::after {
+        content: "";
+        background-color: #D0C297;
+        opacity: 0.8;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        position: absolute;
+        z-index: -1;
+    }
+
+    #banner_text {
+        position: absolute;
+        top: 350px;
+        width: 80%;
+        height: auto;
+        font-family: 'Poppins';
+        text-align: center;
+        color: white;
+    }
+
+    #banner_text h1 {
+        font-size: 1.5rem;
+        letter-spacing: 1px;
+    }
+
+    #banner_text p {
+        font-size: 1rem;
+        margin: 0;
+        padding: 0;
+    }
+
+    /*-----------------------------------------*/
+
+    #container_productos {
+        width: 95%;
+        margin: auto;
+        min-height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #producto_card1 {
+        width: 90%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        box-sizing: border-box;
+        box-shadow: 1px 2px 4px 1px rgba(0, 0, 0, 0.2);
+        padding: 15px;
+        justify-content: center;
+
+    }
+
+    iframe {
+        width: 95%;
+        height: 50vh;
+    }
+
+    .texto_productos {
+        box-sizing: border-box;
+        width: 95%;
+        height: auto;
+        text-align: justify;
+        word-break: break-all;
+        padding: 10px;
+        margin-left: 10px;
+        font-family: 'Poppins';
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .texto_productos h3 {
+        font-size: 2rem;
+        margin-bottom: 5px;
+        padding: 0;
+        align-self: flex-start;
+    }
+
+    .info {
+        width: 80%;
+        height: 60px;
+        text-transform: uppercase;
+        font-family: 'Poppins';
+        font-weight: bolder;
+        color:  #D0C297;
+        border: 2px solid  #D0C297;
+        background-color: transparent;
+        letter-spacing: 2px;
+        font-size: 1rem;
+        margin-top: 5px;
+    }
+
+    #info:hover {
+        background-color: #999897;
+    }
+
+    .texto_productos p {
+        font-size: 1.3rem;
+        padding: 0;
+        margin-bottom:15px;
+        margin-top: 0;
+    }
+
+/*-------------------------------------------*/
+    header {
+        width: 100%;
+        height: 60px;
+        background-color: #D0C297;
+        display: flex;
+        justify-content: center;
+        position: fixed;
+        top: 0;
+    }
+
+    .header_cont {
+        background-color:#D0C297;
+        margin:0;
+        width: 100%;
+        height: 120px;
+        text-align: center;
+        padding: 0;
+    }
+
+    h5, h1, h6 {
+        padding: 0;
+        margin: 0;
+    }
+
+    #marca {
+        background-image: url("img/Marca_principal2.png");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 150px;
+        height: 160px;
+        float: left;
+        box-sizing: border-box;
+        margin-top: 0;
+    }
+
+
+    .btn {
+        cursor:pointer;
+    }
+    #menu {
+        width: 40px;
+        height: 40px;
+        background-image: url("img/list.png");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+
+    }
+
+    #botonera {
+        width:100%;
+        height: 15vh;
+        display: none;
+        flex-direction: column;
+        align-content: space-around;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+    }
+
+    .boton {
+        width: 100%;
+        padding: 8px;
+        background-color: #D0C297;
+    }
+
+    .boton:link {
+        text-decoration: none;
+        font-family: 'Poppins';
+        font-weight: bold;
+        letter-spacing: 2px;
+        font-size: 1rem;
+    }
+
+    .boton:hover {
+        background-color: #D7CCB8;
+    }
+
+    #productos {
+        background-color: #504540;
+        margin-top: 0;
+    }
+
+    #inicio {
+        margin-top: 0;
+    }
+
+    #contacto_b {
+        margin-top: 0;
+    }
+
+    /*------------------------------------------------*/
+
+
+    #footer_container {
+        min-height: 20vh;
+        box-sizing: border-box;
+        margin: auto;
+        left: 0;
+        bottom: 0;
+        min-width: 100%;
+    }
+
+    #redes_footer {
+        width: 100%;
+        text-align: center;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        box-sizing: border-box;
+        padding-top: 10px;
+    }
+
+    .redes {
+        width: 30px;
+        height: 30px;
+        padding: 15px;
+        margin-top: 10px;
+        box-sizing: border-box;
+        display: inline-block;
+    }
+
+    #facebook {
+        background-image: url("img/002-facebook.png");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-right: 10px;
+    }
+
+    #instagram {
+        background-image: url("img/001-instagram.png");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    #footer_text {
+        font-family: 'Poppins',sans-serif;
+        color: white;
+        font-weight: bolder;
+        letter-spacing: 2px;
+    }
+
+    #footer_text h1 {
+        font-size: 1rem;
+    }
+
+    #footer_text h6 {
+        font-size: 0.8rem;
+    }
+
+    #redes_icons {
+        box-sizing: border-box;
+        width: 100px;
+        height: 100%;
+    }
+
+    /*-----------------------------------*/
+    section {
+        min-width: 100%;
+        height: auto;
+        margin: auto;
+    }
+
+    .responsive {
+        width: 50%;
+        display: flex;
+        justify-content:flex-end;
+        align-content: space-around;
+        margin-top: 55px;
+        margin-right: 50px;
+    }
+}
+
+@media all and (min-width: 800px) and (max-width: 1000px) {
+    section {
+        min-width: 100%;
+        height: auto;
+        margin: auto;
+    }
+
+    #inner_banner {
+        min-width: 100%;
+        min-height: 55vh;
+
+    }
+
+    #banner_text {
+        position: absolute;
+        top: 150px;
+        width: 80%;
+        height: auto;
+        font-family: 'Poppins';
+        text-align: center;
+        color: white;
+    }
+
+    #banner_text h1 {
+        font-size: 2rem;
+        letter-spacing: 1px;
+    }
+
+    #banner_text p {
+        font-size: 1.1rem;
+        margin: 0;
+        padding: 0;
+    }
+
+    /*------------------------------------*/
+
+    iframe {
+        width: 95%;
+        height: 60vh;
+    }
+
+
+    #container_productos {
+        width: 100%;
+        margin: auto;
+        min-height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #producto_card1 {
+        width: 95%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        box-sizing: border-box;
+        box-shadow: 1px 2px 4px 1px rgba(0, 0, 0, 0.2);
+        padding: 15px;
+
+    }
+
+    .texto_productos {
+        box-sizing: border-box;
+        width: 80%;
+        height: auto;
+        text-align: justify;
+        word-break: break-all;
+        padding: 10px;
+        margin-left: 10px;
+        font-family: 'Poppins';
+    }
+
+    .texto_productos h3 {
+        font-size: 1.5rem;
+        margin-top: 0;
+        padding: 0;
+    }
+
+    .info {
+        width: 100px;
+        height: 40px;
+        text-transform: uppercase;
+        font-family: 'Poppins';
+        font-weight: bolder;
+        color:  #D0C297;
+        border: 2px solid  #D0C297;
+        background-color: transparent;
+        letter-spacing: 2px;
+    }
+
+    #info:hover {
+        background-color: #999897;
+    }
+
+    .texto_productos p {
+        font-size: 0.9rem;
+    }
+
+    /*---------------------------------*/
+
+    #footer_container {
+        min-height: 15vh;
+        box-sizing: border-box;
+        margin: auto;
+        left: 0;
+        bottom: 0;
+        min-width: 100%;
+    }
+
+    #redes_footer {
+        width: 100%;
+        text-align: center;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        box-sizing: border-box;
+        padding-top: 10px;
+    }
+
+    #footer_text {
+        font-family: 'Poppins',sans-serif;
+        color: white;
+        font-weight: bolder;
+        letter-spacing: 2px;
+    }
+
+    #footer_text h1 {
+        font-size: 1rem;
+    }
+
+    #footer_text h6 {
+        font-size: 0.8rem;
+    }
+
+    /*----------------------------------------*/
+
+    #botonera {
+        width:60%;
+        height: 15vh;
+        float:right;
+        display: flex;
+        flex-direction: row;
+        align-content: space-around;
+        justify-content: flex-end;
+        align-items: center;
+        padding: 0;
+        margin-right: 15px;
+    }
+
+    #marca {
+        background-image: url("img/Marca_principal2.png");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 150px;
+        height: 100px;
+        float: left;
+        box-sizing: border-box;
+        margin-top: 0;
+        margin-left: 15px;
+        margin-bottom: 0;
+    }
+
+}

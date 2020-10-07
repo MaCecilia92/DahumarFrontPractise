@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   height="75.147423"
+   width="138.88889"
+   xml:space="preserve"
+   viewBox="0 0 138.88889 75.147423"
+   y="0px"
+   x="0px"
+   id="Capa_1"
+   version="1.1"><metadata
+   id="metadata18"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><defs
+   id="defs16" />
+<style
+   id="style2"
+   type="text/css">
+	.st0{fill:url(#SVGID_1_);}
+	.st1{fill:#FFFFFF;}
+</style>
+<linearGradient
+   gradientTransform="matrix(0.9819,-0.00180539,-0.00180539,0.984,0.40054444,-23.306288)"
+   y2="62.034401"
+   x2="141.14529"
+   y1="62.034401"
+   x1="-0.2392"
+   gradientUnits="userSpaceOnUse"
+   id="SVGID_1_">
+	<stop
+   id="stop4"
+   style="stop-color:#5C534E"
+   offset="0" />
+	<stop
+   id="stop6"
+   style="stop-color:#735F3D"
+   offset="0.3874" />
+	<stop
+   id="stop8"
+   style="stop-color:#9F771C"
+   offset="1" />
+</linearGradient>
+<path
+   style="fill:url(#SVGID_1_)"
+   id="path11"
+   d="M 138.04444,32.423712 97.944444,9.2237118 c -33,-19 -75.1,-7.7 -94.1999996,25.2000002 l -3.49999996,6 c -0.5,0.8 -0.2,1.8 0.6,2.3 l 40.09999956,23.2 c 33,19 75.099996,7.7 94.199996,-25.2 l 3.5,-6 c 0.5,-0.8 0.2,-1.8 -0.6,-2.3 z"
+   class="st0" />
+</svg>

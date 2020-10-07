@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <meta name="viewport" content="initial-scale=1.0">
+    <link rel="stylesheet" href="productos.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<header>
+    <div class="header_cont" id="header_container">
+        <div id="marca">
+            <a href="index.html" id="marca_link"></a>
+        </div>
+        <div class="responsive" id="responsive"><a class="btn"><div id="menu"></div></a></div>
+        <nav id="botonera">
+            <a class="boton" id="inicio" href="index.html">INICIO</a>
+            <a class="boton" id="productos" href="productos.html">PRODUCTOS</a>
+            <a class="boton" id="contacto_b" href="index.html">CONTACTO</a>
+        </nav>
+    </div>
+</header>
+<body>
+<section id="container">
+    <div id="inner_banner">
+        <div class="inner_banner_text" id="banner_text">
+            <h1>NUESTROS PRODUCTOS</h1>
+            <p>Creemos en la calidad del producto. Y creemos que esa calidad se convierte en experiencia cuando un fumador disfruta nuestros tabacos.</p>
+        </div>
+    </div>
+    <div id="container_productos">
+
+        <div id="producto_card1">
+            <div class="video_container">
+            <video src="video/video.mp4" id="videotag" style="width:100%;" autoplay loop muted></video>
+                <nav id="botonera_video">
+                <button class="btn_video" id="btnStop" onclick="stop()"><span class="icon-stop"></span></span></button>
+                <button class="btn_video" id="btnatras" onclick="skip(-3)"><span class="icon-previous"></span></button>
+                <button class="btn_video" id="btnadelante" onclick="skip(3)"><span class="icon-next"></span></button>
+                <button class="btn_video" id="btnplay" onclick="reproducir()"><span class="icon-pause"></span></span></button>
+            </nav>
+            </div>
+
+            <div class="texto_productos" id="productos_text">
+                <h3>Lorem ipsum dolor</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit cum ridiculus tempus mauris, porta pretium ullamcorper placerat pellentesque lectus bibendum nam proin. Ut id risus malesuada neque placerat senectus quisque congue volutpat lectus odio scelerisque, viverra vel torquent purus vulputate ullamcorper in ante sed nec netus.</p>
+                <button class="info">+INFO</button>
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
+<footer>
+    <div class="footer_cont" id="footer_container">
+        <nav id="redes_footer">
+            <div id="footer_text">
+                <h1>¡Gracias por elegirnos!</h1>
+                <h6>Podes contactarnos por nuestras redes</h6>
+            </div>
+            <div id="redes_icons">
+                <a href="#"><span class="redes" id="facebook"></span></a>
+                <a href="#"><span class="redes" id="instagram"></span></a>
+            </div>
+        </nav>
+    </div>
+</footer>
+<script type="text/javascript" src="fnvideo.js"></script>
+</body>
+</html>
